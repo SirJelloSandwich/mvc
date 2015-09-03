@@ -1,0 +1,238 @@
+{
+  "categories":[
+    {
+      "otype":"category",
+      "title": "Watch Live Channels",
+      "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_main_international.png",
+      "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_main_international.png",
+      "items": [
+        {
+          "otype":"content",
+          "title":"Watch Hope Channel Live",
+          "title": "Watch Hope Channel Live",
+          "streamurls": ["http://bcoveliveios-i.akamaihd.net/hls/live/201459/753071706001-1/index.m3u8"],
+          "streamformat":"HLS",
+          "streambitrates":[0],
+          "streamqualities":["SD"],
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_main_watchlive.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_main_watchlive.png",
+          "block_canada": "N"
+        },
+        {
+          "otype":"content",
+          "title": "Esperanza Live",
+          "streamurls": ["http://bcoveliveios-i.akamaihd.net/hls/live/201459/753071706001-2/index.m3u8"],
+          "streamformat":"HLS",
+          "streambitrates":[0],
+          "streamqualities":["SD"],
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_live_esperanza.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_live_esperanza.png",
+          "block_canada": "Y"
+        }
+      ]
+    },
+    {
+      "otype":"category",
+      "title": "Watch International Channels",
+      "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_main_international.png",
+      "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_main_international.png",
+      "items": [
+        {
+          "title": "Hope Channel North America",
+          "streamurls": "http://bcoveliveios-i.akamaihd.net/hls/live/201459/753071706001-1/index.m3u8",
+          "streamformat":"HLS",
+          "streambitrates":[0],
+          "streamqualities":["SD"],
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_live_northamerica.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_live_northamerica.png",
+          "block_canada": "N"
+        },
+        {
+          "title": "Esperanza",
+          "streamurls": "http://bcoveliveios-i.akamaihd.net/hls/live/201459/753071706001-2/index.m3u8",
+          "streamformat":"HLS",
+          "streambitrates":[0],
+          "streamqualities":["SD"],
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_live_esperanza.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_live_esperanza.png",
+          "block_canada": "Y"
+        },
+        {
+          "title": "Hope Church Channel",
+          "streamurls": "http://bcoveliveios-i.akamaihd.net/hls/live/201459/753071706001-3/index.m3u8",
+          "streamformat":"HLS",
+          "streambitrates":[0],
+          "streamqualities":["SD"],
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_live_churchchannel.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_live_churchchannel.png",
+          "block_canada": "N"
+        },
+        {
+          "title": "Hope Channel International",
+          "streamurls": "http://mediaserver3.stimme-der-hoffnung.de/hci_iphone.m3u8",
+          "streamformat":"HLS",
+          "streambitrates":[0],
+          "streamqualities":["SD"],
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_live_international.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_live_international.png",
+          "block_canada": "N"
+        },
+        {
+          "title": "Novo Tempo",
+          "streamurls": "http://50.22.36.40:1935/live/ngrp:tvnovotempo_all/playlist.m3u8",
+          "streamformat":"HLS",
+          "streambitrates":[0],
+          "streamqualities":["SD"],
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_live_novotempo.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_live_novotempo.png",
+          "block_canada": "Y"
+        },
+        {
+          "title": "Nuevo Tiempo",
+          "streamurls": "http://50.22.36.40:1935/live/ngrp:tvnuevotiempo_all/playlist.m3u8",
+          "streamformat":"HLS",
+          "streambitrates":[0],
+          "streamqualities":["SD"],
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_live_nuevotiempo.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_live_nuevotiempo.png",
+          "block_canada": "Y"
+        },
+        {
+          "title": "Hope Channel Germany",
+          "streamurls": "http://mediaserver3.stimme-der-hoffnung.de/hcd_iphone.m3u8",
+          "streamformat":"HLS",
+          "streambitrates":[0],
+          "streamqualities":["SD"],
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_live_germany.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_live_germany.png",
+          "block_canada": "Y"
+        },
+        {
+          "title": "Chinese Hope Channel",
+          "streamurls": "http://203.69.85.37/hls-live/livepkgr/_definst_/hopetv/hopestream.m3u8",
+          "streamformat":"HLS",
+          "streambitrates":[0],
+          "streamqualities":["SD"],
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_live_chinese.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_live_chinese.png",
+          "block_canada": "Y"
+        },
+        {
+          "title": "Hope Channel Czech",
+          "streamurls": "http://stream2.mediawork.cz/hopetv/smil:hopetvvid.smil/playlist.m3u8",
+          "streamformat":"HLS",
+          "streambitrates":[0],
+          "streamqualities":["SD"],
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_live_czech.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_live_czech.png",
+          "block_canada": "Y"
+        },
+        {
+          "title": "Hope Channel India",
+          "streamurls": "http://bcoveliveios-i.akamaihd.net/hls/live/201459/753071706001-4/index.m3u8",
+          "streamformat":"HLS",
+          "streambitrates":[0],
+          "streamqualities":["SD"],
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_live_india.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_live_india.png",
+          "block_canada": "Y"
+        },
+        {
+          "title": "Hope Channel Ukraine",
+          "streamurls": "http://91.90.23.69:1935/live/livestream_1/playlist.m3u8",
+          "streamformat":"HLS",
+          "streambitrates":[0],
+          "streamqualities":["SD"],
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_live_ukraine.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_live_ukraine.png",
+          "block_canada": "Y"
+        }
+      ]
+    },
+    {
+      "otype":"brightcove",
+      "title": "Watch Programs",
+      "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_main_watchprograms.png",
+      "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_main_watchprograms.png",
+      "items": [
+        {
+          "title": "Beginnings",
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_programs_beginnings.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_programs_beginnings.png",
+          "start_year":"2010",
+          "end_year":"2013"
+        },
+        {
+          "title": "Cross Connection",
+          "query": "",
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_programs_crossconnection.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_programs_crossconnection.png",
+          "start_year":"2010",
+          "end_year":"2013"
+        },
+        {
+          "title": "Go Healthy... For Good!",
+          "query": "",
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_programs_gohealthy.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_programs_gohealthy.png",
+          "start_year":"2010",
+          "end_year":"2013"
+        },
+        {
+          "title": "Hope Sabbath School",
+          "query": "",
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_programs_hopesabbathschool.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_programs_hopesabbathschool.png",
+          "start_year":"2010",
+          "end_year":"2013"
+        },
+        {
+          "title": "Let's Pray",
+          "query": "",
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_programs_letspray.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_programs_letspray.png",
+          "start_year":"2010",
+          "end_year":"2013"
+        },
+        {
+          "title": "Real Family Talk",
+          "query": "",
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_programs_realfamilytalk.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_programs_realfamilytalk.png",
+          "start_year":"2010",
+          "end_year":"2013"
+        },
+        {
+          "title": "The Logos Project",
+          "query": "",
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_programs_logosproject.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_programs_logosproject.png",
+          "start_year":"2010",
+          "end_year":"2013"
+        },
+        {
+          "title": "Unhooked",
+          "query": "",
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_programs_unhooked.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_programs_unhooked.png",
+          "start_year":"2010",
+          "end_year":"2013"
+        },
+        {
+          "title": "Latest Videos",
+          "query": "http://api.brightcove.com/services/library?command=search_videos&page_size=5&video_fields=id%2Cname%2CcustomFields%2CvideoStillURL%2CthumbnailURL%2Clength%2CHLSURL&media_delivery=http_ios&sort_by=PUBLISH_DATE%3ADESC&page_number=0&get_item_count=false&all=video_type:Episode%20Full",
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_main_latest.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_main_latest.png"
+        },
+        {
+          "title": "Most Popular Videos",
+          "query": "http://api.brightcove.com/services/library?command=search_videos&page_size=5&video_fields=id%2Cname%2CcustomFields%2CvideoStillURL%2CthumbnailURL%2Clength%2CHLSURL&media_delivery=http_ios&sort_by=PLAYS_TRAILING_WEEK%3ADESC&page_number=0&get_item_count=false&all=video_type:Episode%20Full",
+          "hdbackgroundimageurl": "http://roku.hopetv.org/assets/hd_main_popular.png",
+          "sdbackgroundimageurl": "http://roku.hopetv.org/assets/sd_main_popular.png"
+        }
+      ]
+    }
+
+  ]
+}
+

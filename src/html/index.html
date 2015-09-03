@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<!--
+    FLI presents Hope-FireTV
+  -->
+<html lang='en'>
+  <head>
+    <title><%= title %></title>
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      /**
+      * This script will set the 'initial-scale' value on the viewport metatag
+      * The scale is used to fit the template on Kindle Fire mobile devices
+      * This must be handled in the head of the document because the scale
+      * is not affected once the page finishes loading
+      */
+
+      var vp = document.getElementById('viewport');
+
+      var initialScale = Math.max(screen.width, screen.height)/1920;
+
+      vp.setAttribute('content','width=device-width, initial-scale=' + initialScale + ', maximum-scale=' + initialScale, + 'minimum-scale=' + initialScale);
+
+    </script>
+
+    <!-- build:css:dev css/flicast_core_html5.css -->
+    <!-- /build -->
+    <!-- build:css:dist css/flicast_core_html5.min.css -->
+    <!-- /build -->
+  </head>
+<body>    
+    
+    <script src="libs/handlebars-v2.0.0.js"></script>
+    <script src="libs/jquery.js"></script>
+    <!-- build:js:dev js/flicast_core_html5.js -->
+    <!-- /build -->
+    <!-- build:js:dist js/flicast_core_html5.min.js -->
+    <!-- /build -->
+</body>
+</html>

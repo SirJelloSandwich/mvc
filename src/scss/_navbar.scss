@@ -1,0 +1,75 @@
+// _navbar.scss
+
+.navbar {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  background-repeat: no-repeat;
+  display: none;
+  width: 100%;
+  height: 165px;
+}
+
+.menubar {
+  background: $color-hope-lightgray;
+  list-style: none;
+  font-size: 20px;
+  color: $color-hope-menu-text-light;
+  float: right !important;
+  margin-top: 106px;
+  margin-bottom: 4px;
+  margin-right: 50px;
+}
+.menubar-item {
+  display: inline-block;
+  position: relative;
+}
+.menubar-item-target {
+  color: $color-hope-menu-text-light;
+  display: block;
+  padding: 16px 25px;
+  text-decoration: none;
+  background: $color-hope-darkgray;
+    
+  &:hover { 
+    background: $color-hope-menu-yellow;
+    color: $color-hope-lightgray;
+  }
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background: $color-hope-darkgray;
+  list-style: none;
+  padding: 0;
+  margin-top: 4px;
+  
+  .is-selected & {
+    display: block;
+  }
+}
+
+.menu-item-target {
+  color: $color-hope-menu-text-light;
+  display: block;
+  padding: 15px 25px;
+  text-decoration: none;
+
+  &:hover {
+    background: $color-hope-menu-yellow;
+    color: $color-hope-menu-text-dark;
+  }
+}
+   
+.menu-item-is-active {
+  color: $color-hope-menu-text-dark;
+  background: $color-hope-menu-blue;
+}
+
+.region-language {
+  color: $color-hope-menu-blue;
+}
+
